@@ -19,7 +19,7 @@ public class CameraMover : MonoBehaviour
     void Start()
     {
 
-        Vector3 eulerAngles = this.transform.eulerAngles;//当前物体的欧拉角
+        Vector3 eulerAngles = this.transform.eulerAngles;
 
         this.eulerAngles_x = eulerAngles.y;
 
